@@ -71,6 +71,9 @@ script:
   - tools/travis/build_byond.sh
   
 after_success:
-  if: branch = CHANGELOG
-    - echo "We are in CHANGELOG branch"
+  if ([ "$TRAVIS_BRANCH" == "CHANGELOG" ]) then
+    echo "WE ARE CHANGELOG!"
+  else
+    echo "WE ARE NOT CHANGELOG"
+  fi
 
