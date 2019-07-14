@@ -592,8 +592,7 @@
 	desc = "It's an improved model of advanced power armor used exclusively by the Enclave military forces, developed after the Great War.<br>Like its older brother, the standard advanced power armor, it's matte black with a menacing appearance, but with a few significant differences - it appears to be composed entirely of lightweight ceramic composites rather than the usual combination of metal and ceramic plates.<br>Additionally, like the T-51b power armor, it includes a recycling system that can convert human waste into drinkable water, and an air conditioning system for it's user's comfort."
 	icon_state = "advhelmet2"
 	item_state = "advhelmet2"
-	armor = list("melee" = 72, "bullet" = 72, "laser" = 48, "energy" = 48, "bomb" = 72, "bio" = 100, "rad" = 100, "fire" = 50, "acid" = 0)
-
+	armor = list("melee" = 85, "bullet" = 85, "laser" = 70, "energy" = 70, "bomb" = 82, "bio" = 100, "rad" = 100, "fire" = 10, "acid" = 10)
 /obj/item/clothing/head/helmet/power_armor/tesla
 	name = "tesla power helmet"
 	desc = "A helmet typically used by Enclave special forces.<br>There are three orange energy capacitors on the side."
